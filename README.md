@@ -25,7 +25,12 @@ Sortery eliminates the worst-case scenario O(N²) brute-force lookup loop and ma
 
 ## 💻 Quick Start & Usage
 
-Drop `sortery.py` directly into your workspace and initialize the execution engine:
+You could install the package directly to your environment by using the python package manager
+```python
+pip install sortery
+```
+
+or you could drop `sorter.py` directly into your workspace and initialize the execution engine:
 
 ```python
 from sortery import SmartSorter
