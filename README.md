@@ -30,14 +30,14 @@ Drop `sortery.py` directly into your workspace and initialize the execution engi
 ```python
 from sortery import SmartSorter
 
-# Initialize Sortery
+# Instantiate sorter
 sorter = SmartSorter()
 
 # Feed unorganized, fragmented data
 messy_stream = [12, 1, 994, 5, 2, 995, 13]
-sorter.feed_unorganized_list(messy_stream)
+sorter.feed_list(messy_stream)
 
-# Extract perfectly ordered chain sequence
+# Extract ordered chain sequence
 clean_output = sorter.get_sorted_list()
 print(clean_output) 
 # Output: [1, 2, 5, 12, 13, 994, 995]

@@ -1,5 +1,3 @@
-import random
-import time
 import bisect
 
 class Node:
@@ -18,7 +16,7 @@ class SmartSorter:
         self.sorted_keys = []
 
     # main loop
-    def feed_unorganized_list(self, raw_list):
+    def feed_list(self, raw_list):
         for item in raw_list:
             self.insert_ordered(item)
     
